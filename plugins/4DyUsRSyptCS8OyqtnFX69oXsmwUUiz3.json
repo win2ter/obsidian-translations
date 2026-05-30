@@ -1,0 +1,180 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "tray",
+        "version": "1.0.0",
+        "title": "[zh-cn] Tray",
+        "description": "Tray Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.3.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Open Obsidian automatically whenever you log into your computer.",
+                    "target": "Open Obsidian automatically whenever you log into your computer."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "\n      Minimises Obsidian automatically whenever the app is launched. If the\n      \"Run in background\" option is enabled, windows will be hidden to the system\n      tray/menubar instead of minimised to the taskbar/dock.\n    ",
+                    "target": "\n      Minimises Obsidian automatically whenever the app is launched. If the\n      \"Run in background\" option is enabled, windows will be hidden to the system\n      tray/menubar instead of minimised to the taskbar/dock.\n    "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "\n      Hides the app and continues to run it in the background instead of quitting\n      it when pressing the window close button or toggle focus hotkey.\n    ",
+                    "target": "\n      Hides the app and continues to run it in the background instead of quitting\n      it when pressing the window close button or toggle focus hotkey.\n    "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "\n      Hides the window's icon from from the dock/taskbar. Enabling the tray icon first\n      is recommended if using this option. This may not work on Linux-based OSes.\n    ",
+                    "target": "\n      Hides the window's icon from from the dock/taskbar. Enabling the tray icon first\n      is recommended if using this option. This may not work on Linux-based OSes.\n    "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "\n      Adds an icon to your system tray/menubar to bring hidden Obsidian windows\n      back into focus on click or force a full quit/relaunch of the app through\n      the right-click menu.\n    ",
+                    "target": "\n      Adds an icon to your system tray/menubar to bring hidden Obsidian windows\n      back into focus on click or force a full quit/relaunch of the app through\n      the right-click menu.\n    "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "\n      Set the image used by the tray/menubar icon. Recommended size: 16x16\n      <br>Preview: <img data-preview style=\"height: 16px; vertical-align: bottom;\">\n    ",
+                    "target": "\n      Set the image used by the tray/menubar icon. Recommended size: 16x16\n      <br>Preview: <img data-preview style=\"height: 16px; vertical-align: bottom;\">\n    "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "\n      Set a title to identify the tray/menubar icon by. The\n      <code>{{vault}}</code> placeholder will be replaced by the vault name.\n      <br>Preview: <b class=\"u-pop\" data-preview></b>\n    ",
+                    "target": "\n      Set a title to identify the tray/menubar icon by. The\n      <code>{{vault}}</code> placeholder will be replaced by the vault name.\n      <br>Preview: <b class=\"u-pop\" data-preview></b>\n    "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "New quick notes will be placed in this folder.",
+                    "target": "New quick notes will be placed in this folder."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Example: notes/quick",
+                    "target": "Example: notes/quick"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "log(`${LOG_PREFIX}: ${message}`)",
+                    "target": "log(`${LOG_PREFIX}: ${message}`)"
+                },
+                {
+                    "source": "const LOG_PREFIX=\"obsidian-tray\",LOG_LOADING=\"loading\",LOG_CLEANUP=\"cleaning up\",LOG_SHOWING_WINDOWS=\"showing windows\",LOG_HIDING_WINDOWS=\"hiding windows\",LOG_WINDOW_CLOSE=\"intercepting window close\",LOG_TRAY_ICON=\"creating tray icon\",LOG_REGISTER_HOTKEY=\"registering hotkey\",LOG_UNREGISTER_HOTKEY=\"unregistering hotkey\",ACTION_QUICK_NOTE=\"Quick Note\",ACTION_SHOW=\"Show Vault\",ACTION_HIDE=\"Hide Vault\",ACTION_RELAUNCH=\"Relaunch Obsidian\",ACTION_CLOSE=\"Close Vault\",DEFAULT_DATE_FORMAT=\"YYYY-MM-DD\",ACCELERATOR_FORMAT=`\n    This hotkey is registered globally and will be detected even if Obsidian does\n    not have keyboard focus. Format:\n    <a href=\"https://www.electronjs.org/docs/latest/api/accelerator\" target=\"_blank\" rel=\"noopener\">\n    Electron accelerator</a>\n  `,MOMENT_FORMAT=`\n    Format:\n    <a href=\"https://momentjs.com/docs/#/displaying/format/\" target=\"_blank\" rel=\"noopener\">\n    Moment.js format string</a>",
+                    "target": "\"use strict\";const LOG_PREFIX=\"obsidian-tray\",LOG_LOADING=\"加载中\",LOG_CLEANUP=\"清理中\",LOG_SHOWING_WINDOWS=\"显示窗口\",LOG_HIDING_WINDOWS=\"隐藏窗口\",LOG_WINDOW_CLOSE=\"拦截窗口关闭\",LOG_TRAY_ICON=\"创建托盘图标\",LOG_REGISTER_HOTKEY=\"注册热键\",LOG_UNREGISTER_HOTKEY=\"注销热键\",ACTION_QUICK_NOTE=\"快速笔记\",ACTION_SHOW=\"显示 Vault\",ACTION_HIDE=\"隐藏 Vault\",ACTION_RELAUNCH=\"重新启动 Obsidian\",ACTION_CLOSE=\"关闭 Vault\",DEFAULT_DATE_FORMAT=\"[Quick.]YYYY-MM-DD\",ACCELERATOR_FORMAT=`\n    热键已注册。Obsidian 即使没有键盘焦点，也能被检测到。\n    Format:\n    <a href=\"https://www.electronjs.org/docs/latest/api/accelerator\" target=\"_blank\" rel=\"noopener\">\n    Electron accelerator</a>\n  `,MOMENT_FORMAT=`\n    Format:\n    <a href=\"https://momentjs.com/docs/#/displaying/format/\" target=\"_blank\" rel=\"noopener\">\n    Moment.js format string</a>"
+                },
+                {
+                    "source": "\"Window management\"",
+                    "target": "\"视窗管理\""
+                },
+                {
+                    "source": "key:\"launchOnStartup\"",
+                    "target": "key:\"开机自动启动Obsidian\""
+                },
+                {
+                    "source": "desc:\"Open Obsidian automatically whenever you log into your computer.\"",
+                    "target": "desc:\"登录电脑时，自动启动 Obsidian。\""
+                },
+                {
+                    "source": "key:\"hideOnLaunch\"",
+                    "target": "key:\"开机最小化Obsidian\""
+                },
+                {
+                    "source": "desc:`\n      Minimises Obsidian automatically whenever the app is launched. If the\n      \"Run in background\" option is enabled, windows will be hidden to the system\n      tray/menubar instead of minimised to the taskbar/dock.\n    `,",
+                    "target": "desc:`\nObsidian启动时，自动最小化。如启用“在后台运行Obsidian”选项，视窗将隐藏在系统托盘/菜单栏中，而不是最小化到任务栏/Dock 栏。\n    `,"
+                },
+                {
+                    "source": "key:\"runInBackground\"",
+                    "target": "key:\"在后台运行Obsidian\""
+                },
+                {
+                    "source": "desc:`\n      Hides the app and continues to run it in the background instead of quitting\n      it when pressing the window close button or toggle focus hotkey.\n    `,",
+                    "target": "desc:`\n按下“视窗关闭按钮“或“切换焦点热键“时，Obsidian会被隐藏并在后台继续运行，而不是退出。\n    `,"
+                },
+                {
+                    "source": "key:\"hideTaskbarIcon\"",
+                    "target": "key:\"隐藏任务栏图标\""
+                },
+                {
+                    "source": "desc:`\n      Hides the window's icon from from the dock/taskbar. Enabling the tray icon first\n      is recommended if using this option. This may not work on Linux-based OSes.\n    `,",
+                    "target": "desc:`\n隐藏 Dock/任务栏中的视窗图标。\n如果使用此选项，建议先启用托盘图标。\n此选项可能在基于 Linux 的操作系统上无效。\n    `,"
+                },
+                {
+                    "source": "key:\"createTrayIcon\"",
+                    "target": "key:\"创建系统图标\""
+                },
+                {
+                    "source": "desc:`\n      Adds an icon to your system tray/menubar to bring hidden Obsidian windows\n      back into focus on click or force a full quit/relaunch of the app through\n      the right-click menu.\n    `,",
+                    "target": "desc:`\n在系统托盘/菜单栏中添加图标，点击即可将隐藏的 Obsidian 窗口恢复到焦点状态，\n或者通过右键菜单强制完全退出/重新启动应用程序。\n    `,"
+                },
+                {
+                    "source": "key:\"trayIconImage\"",
+                    "target": "key:\"设置系统图标\""
+                },
+                {
+                    "source": "desc:`\n      Set the image used by the tray/menubar icon. Recommended size: 16x16\n      <br>Preview: <img data-preview style=\"height: 16px; vertical-align: bottom;\">\n    `,",
+                    "target": "desc:`\n设置托盘/菜单栏图标使用的图片。推荐尺寸：16x16\n<br>预览：<img data-preview style=\"height: 16px; vertical-align: bottom;\">\n    `,"
+                },
+                {
+                    "source": "key:\"trayIconTooltip\"",
+                    "target": "key:\"设置系统图标标题\""
+                },
+                {
+                    "source": "desc:`\n      Set a title to identify the tray/menubar icon by. The\n      <code>{{vault}}</code> placeholder will be replaced by the vault name.\n      <br>Preview: <b class=\"u-pop\" data-preview></b>\n    `,",
+                    "target": "desc:`V\n设置一个标题来标识托盘/菜单栏图标。\n<code>{{vault}}</code>替换为Vault仓库名称。\n<br>预览：<b class=\"u-pop\" data-preview></b>\n    `,"
+                },
+                {
+                    "source": "key:\"toggleWindowFocusHotkey\"",
+                    "target": "key:\"切换窗口焦点热键\""
+                },
+                {
+                    "source": "desc:ACCELERATOR_FORMAT,type:\"hotkey\",default:\"CmdOrCtrl+Shift+Tab\",onBeforeChange:unregisterHotkeys,onChange:registerHotkeys},\"Quick notes\",",
+                    "target": "desc:ACCELERATOR_FORMAT,type:\"hotkey\",default:\"Cmd Or Ctrl+Shift+Tab\",onBeforeChange:unregisterHotkeys,onChange:registerHotkeys},\"Quick notes\","
+                },
+                {
+                    "source": "key:\"quickNoteLocation\"",
+                    "target": "key:\"快速笔记的保存位置\""
+                },
+                {
+                    "source": "desc:\"New quick notes will be placed in this folder.\",type:\"text\",placeholder:\"Example: notes/quick\"",
+                    "target": "desc:\"新建快速笔记的保存文件夹。\",type:\"text\",placeholder:\"例子: notes/quick\""
+                },
+                {
+                    "source": "key:\"quickNoteDateFormat\"",
+                    "target": "key:\"快速笔记的文件名格式\""
+                },
+                {
+                    "source": "desc:`\n      New quick notes will use a filename of this pattern. ${MOMENT_FORMAT}\n      <br>Preview: <b class=\"u-pop\" data-preview></b>\n    `,type:\"moment\",default:DEFAULT_DATE_FORMAT",
+                    "target": "desc:`\n      新建快速笔记的文件名格式。 ${MOMENT_FORMAT}\n      <br>Preview: <b class=\"u-pop\" data-preview></b>\n    `,type:\"moment\",default:DEFAULT_DATE_FORMAT"
+                },
+                {
+                    "source": "key:\"quickNoteHotkey\"",
+                    "target": "key:\"快速笔记热键\""
+                },
+                {
+                    "source": "desc:ACCELERATOR_FORMAT,type:\"hotkey\",default:\"CmdOrCtrl+Shift+Q\",",
+                    "target": "desc:ACCELERATOR_FORMAT,type:\"hotkey\",default:\"Cmd Or Ctrl+Shift+Q\","
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,589 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "theme": "Composer",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supportedVersions": "0.3.0",
+        "title": "Composer",
+        "description": "Composer Localization & Tweaks",
+        "author": ""
+    },
+    "dict": [
+        {
+            "type": "name",
+            "source": "Composer Theme",
+            "target": "Composer Theme"
+        },
+        {
+            "type": "title",
+            "source": "About Components",
+            "target": "About Components"
+        },
+        {
+            "type": "description",
+            "source": "[https://cp.cc1234.cc/](https://cp.cc1234.cc/)",
+            "target": "[https://cp.cc1234.cc/](https://cp.cc1234.cc/)"
+        },
+        {
+            "type": "markdown",
+            "source": "true",
+            "target": "true"
+        },
+        {
+            "type": "title",
+            "source": "Color Scheme",
+            "target": "Color Scheme"
+        },
+        {
+            "type": "description",
+            "source": "Choose a color scheme for the theme",
+            "target": "Choose a color scheme for the theme"
+        },
+        {
+            "type": "title",
+            "source": "Typograph Settings",
+            "target": "Typograph Settings"
+        },
+        {
+            "type": "title",
+            "source": "Content Area width",
+            "target": "Content Area width"
+        },
+        {
+            "type": "description",
+            "source": "The maximum line width",
+            "target": "The maximum line width"
+        },
+        {
+            "type": "title",
+            "source": "Callout",
+            "target": "Callout"
+        },
+        {
+            "type": "title",
+            "source": "Callout Style",
+            "target": "Callout Style"
+        },
+        {
+            "type": "description",
+            "source": "Choose prefered Callout style",
+            "target": "Choose prefered Callout style"
+        },
+        {
+            "type": "title",
+            "source": "Table",
+            "target": "Table"
+        },
+        {
+            "type": "title",
+            "source": "Table Style",
+            "target": "Table Style"
+        },
+        {
+            "type": "description",
+            "source": "Choose prefered table style",
+            "target": "Choose prefered table style"
+        },
+        {
+            "type": "title",
+            "source": "Hide Striped Background",
+            "target": "Hide Striped Background"
+        },
+        {
+            "type": "title",
+            "source": "Paragraph",
+            "target": "Paragraph"
+        },
+        {
+            "type": "title",
+            "source": "Paragraph Indent",
+            "target": "Paragraph Indent"
+        },
+        {
+            "type": "description",
+            "source": "indent the first line of a paragraph",
+            "target": "indent the first line of a paragraph"
+        },
+        {
+            "type": "title",
+            "source": "Paragraph Line Height",
+            "target": "Paragraph Line Height"
+        },
+        {
+            "type": "description",
+            "source": "Set the line height of the paragraph",
+            "target": "Set the line height of the paragraph"
+        },
+        {
+            "type": "title",
+            "source": "Paragraph Letter Spacing",
+            "target": "Paragraph Letter Spacing"
+        },
+        {
+            "type": "description",
+            "source": "Set the letter spacing of the paragraph, you should specify the unit em or px",
+            "target": "Set the letter spacing of the paragraph, you should specify the unit em or px"
+        },
+        {
+            "type": "title",
+            "source": "Paragraph Word Spacing",
+            "target": "Paragraph Word Spacing"
+        },
+        {
+            "type": "description",
+            "source": "Set the word spacing of the paragraph, you should specify the unit em or px",
+            "target": "Set the word spacing of the paragraph, you should specify the unit em or px"
+        },
+        {
+            "type": "title",
+            "source": "Bold",
+            "target": "Bold"
+        },
+        {
+            "type": "title",
+            "source": "Bold Color",
+            "target": "Bold Color"
+        },
+        {
+            "type": "title",
+            "source": "Bold Weight",
+            "target": "Bold Weight"
+        },
+        {
+            "type": "title",
+            "source": "Italic",
+            "target": "Italic"
+        },
+        {
+            "type": "title",
+            "source": "Italic Color",
+            "target": "Italic Color"
+        },
+        {
+            "type": "title",
+            "source": "Task Settings",
+            "target": "Task Settings"
+        },
+        {
+            "type": "title",
+            "source": "Remove Task Completed Decoration",
+            "target": "Remove Task Completed Decoration"
+        },
+        {
+            "type": "description",
+            "source": "Remove the strikethrough for completed tasks",
+            "target": "Remove the strikethrough for completed tasks"
+        },
+        {
+            "type": "title",
+            "source": "Inline Code Style",
+            "target": "Inline Code Style"
+        },
+        {
+            "type": "title",
+            "source": "Inline Code Text Color",
+            "target": "Inline Code Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Inline Code Background Color",
+            "target": "Inline Code Background Color"
+        },
+        {
+            "type": "title",
+            "source": "Heading Decoration",
+            "target": "Heading Decoration"
+        },
+        {
+            "type": "title",
+            "source": "Disable Heading Line Editing Highlight",
+            "target": "Disable Heading Line Editing Highlight"
+        },
+        {
+            "type": "description",
+            "source": "Disable line highlight when editing heading",
+            "target": "Disable line highlight when editing heading"
+        },
+        {
+            "type": "title",
+            "source": "Disable Heading Decoration (Reading View)",
+            "target": "Disable Heading Decoration (Reading View)"
+        },
+        {
+            "type": "description",
+            "source": "Disable decoration before heading (reading view)",
+            "target": "Disable decoration before heading (reading view)"
+        },
+        {
+            "type": "title",
+            "source": "Disable Heading Decoration (Live Preview View)",
+            "target": "Disable Heading Decoration (Live Preview View)"
+        },
+        {
+            "type": "description",
+            "source": "Disable decoration before heading (live preview view)",
+            "target": "Disable decoration before heading (live preview view)"
+        },
+        {
+            "type": "title",
+            "source": "Heading Font Size (H1-H6)",
+            "target": "Heading Font Size (H1-H6)"
+        },
+        {
+            "type": "title",
+            "source": "H1 Size",
+            "target": "H1 Size"
+        },
+        {
+            "type": "description",
+            "source": "you should specify the unit em or px",
+            "target": "you should specify the unit em or px"
+        },
+        {
+            "type": "title",
+            "source": "H2 Size",
+            "target": "H2 Size"
+        },
+        {
+            "type": "title",
+            "source": "H3 Size",
+            "target": "H3 Size"
+        },
+        {
+            "type": "title",
+            "source": "H4 Size",
+            "target": "H4 Size"
+        },
+        {
+            "type": "title",
+            "source": "H5 Size",
+            "target": "H5 Size"
+        },
+        {
+            "type": "title",
+            "source": "H6 Size",
+            "target": "H6 Size"
+        },
+        {
+            "type": "title",
+            "source": "Heading Font Color (H1-H6)",
+            "target": "Heading Font Color (H1-H6)"
+        },
+        {
+            "type": "title",
+            "source": "H1",
+            "target": "H1"
+        },
+        {
+            "type": "title",
+            "source": "H2",
+            "target": "H2"
+        },
+        {
+            "type": "title",
+            "source": "H3",
+            "target": "H3"
+        },
+        {
+            "type": "title",
+            "source": "H4",
+            "target": "H4"
+        },
+        {
+            "type": "title",
+            "source": "H5",
+            "target": "H5"
+        },
+        {
+            "type": "title",
+            "source": "H6",
+            "target": "H6"
+        },
+        {
+            "type": "title",
+            "source": "Layout Settings",
+            "target": "Layout Settings"
+        },
+        {
+            "type": "title",
+            "source": "Disable Nav Header Auto Hide",
+            "target": "Disable Nav Header Auto Hide"
+        },
+        {
+            "type": "description",
+            "source": "Enable this option to disable the auto-hide of the nav header",
+            "target": "Enable this option to disable the auto-hide of the nav header"
+        },
+        {
+            "type": "title",
+            "source": "Disable File Folder Icon",
+            "target": "Disable File Folder Icon"
+        },
+        {
+            "type": "title",
+            "source": "Enable Indentation Guide Line",
+            "target": "Enable Indentation Guide Line"
+        },
+        {
+            "type": "description",
+            "source": "show indentation guide line for file tree, ordered list, unordered list, and task list",
+            "target": "show indentation guide line for file tree, ordered list, unordered list, and task list"
+        },
+        {
+            "type": "title",
+            "source": "Modal Backdrop Blur Intensity",
+            "target": "Modal Backdrop Blur Intensity"
+        },
+        {
+            "type": "title",
+            "source": "Nav File Settings",
+            "target": "Nav File Settings"
+        },
+        {
+            "type": "title",
+            "source": "Enable Filename Line Feed",
+            "target": "Enable Filename Line Feed"
+        },
+        {
+            "type": "description",
+            "source": "enable line feed for filename",
+            "target": "enable line feed for filename"
+        },
+        {
+            "type": "title",
+            "source": "Enable Hidden File Tag",
+            "target": "Enable Hidden File Tag"
+        },
+        {
+            "type": "description",
+            "source": "enable hidden file tag",
+            "target": "enable hidden file tag"
+        },
+        {
+            "type": "title",
+            "source": "Enable Hidden File Tag Hover",
+            "target": "Enable Hidden File Tag Hover"
+        },
+        {
+            "type": "description",
+            "source": "enable hidden file tag hover",
+            "target": "enable hidden file tag hover"
+        },
+        {
+            "type": "title",
+            "source": "Outline Settings",
+            "target": "Outline Settings"
+        },
+        {
+            "type": "title",
+            "source": "Outline Style",
+            "target": "Outline Style"
+        },
+        {
+            "type": "description",
+            "source": "Choose prefered outline style",
+            "target": "Choose prefered outline style"
+        },
+        {
+            "type": "title",
+            "source": "Outline Collapsed Icon Opacity",
+            "target": "Outline Collapsed Icon Opacity"
+        },
+        {
+            "type": "description",
+            "source": "Set the opacity of the collapsed icon",
+            "target": "Set the opacity of the collapsed icon"
+        },
+        {
+            "type": "title",
+            "source": "Color Settings",
+            "target": "Color Settings"
+        },
+        {
+            "type": "title",
+            "source": "Color Hue Settings(Only for Ní)",
+            "target": "Color Hue Settings(Only for Ní)"
+        },
+        {
+            "type": "title",
+            "source": "Light Primary Hue (Only for Ní Scheme)",
+            "target": "Light Primary Hue (Only for Ní Scheme)"
+        },
+        {
+            "type": "title",
+            "source": "Light Secondary Hue (Only for Ní Scheme)",
+            "target": "Light Secondary Hue (Only for Ní Scheme)"
+        },
+        {
+            "type": "title",
+            "source": "Dark Primary Hue (Only for Ní Scheme)",
+            "target": "Dark Primary Hue (Only for Ní Scheme)"
+        },
+        {
+            "type": "title",
+            "source": "Dark Secondary Hue (Only for Ní Scheme)",
+            "target": "Dark Secondary Hue (Only for Ní Scheme)"
+        },
+        {
+            "type": "title",
+            "source": "Background Colors",
+            "target": "Background Colors"
+        },
+        {
+            "type": "title",
+            "source": "Background Primary",
+            "target": "Background Primary"
+        },
+        {
+            "type": "title",
+            "source": "Background Primary Alt",
+            "target": "Background Primary Alt"
+        },
+        {
+            "type": "title",
+            "source": "Background Secondary",
+            "target": "Background Secondary"
+        },
+        {
+            "type": "title",
+            "source": "Background Secondary Alt",
+            "target": "Background Secondary Alt"
+        },
+        {
+            "type": "title",
+            "source": "Rainbow Tree Settings",
+            "target": "Rainbow Tree Settings"
+        },
+        {
+            "type": "title",
+            "source": "Disable Rainbow Tree",
+            "target": "Disable Rainbow Tree"
+        },
+        {
+            "type": "description",
+            "source": "disable rainbow tree for file explorer",
+            "target": "disable rainbow tree for file explorer"
+        },
+        {
+            "type": "title",
+            "source": "Folder Background Opacity",
+            "target": "Folder Background Opacity"
+        },
+        {
+            "type": "description",
+            "source": "Set the background opacity of the folder",
+            "target": "Set the background opacity of the folder"
+        },
+        {
+            "type": "title",
+            "source": "Folder Text Opacity",
+            "target": "Folder Text Opacity"
+        },
+        {
+            "type": "description",
+            "source": "Set the text opacity of the folder",
+            "target": "Set the text opacity of the folder"
+        },
+        {
+            "type": "title",
+            "source": "Folder Hover Opacity",
+            "target": "Folder Hover Opacity"
+        },
+        {
+            "type": "description",
+            "source": "Set the hover opacity of the folder",
+            "target": "Set the hover opacity of the folder"
+        },
+        {
+            "type": "title",
+            "source": "Folder Sub Background Opacity",
+            "target": "Folder Sub Background Opacity"
+        },
+        {
+            "type": "description",
+            "source": "Set the background opacity of the sub-folder",
+            "target": "Set the background opacity of the sub-folder"
+        },
+        {
+            "type": "title",
+            "source": "Folder Sub Text Opacity",
+            "target": "Folder Sub Text Opacity"
+        },
+        {
+            "type": "description",
+            "source": "Set the text opacity of the sub-folder",
+            "target": "Set the text opacity of the sub-folder"
+        },
+        {
+            "type": "title",
+            "source": "Components Plugin",
+            "target": "Components Plugin"
+        },
+        {
+            "type": "title",
+            "source": "Dynamic Dataview",
+            "target": "Dynamic Dataview"
+        },
+        {
+            "type": "title",
+            "source": "Simple Tag Style",
+            "target": "Simple Tag Style"
+        },
+        {
+            "type": "description",
+            "source": "switch to simple tag style to select / multi-select / group-name...",
+            "target": "switch to simple tag style to select / multi-select / group-name..."
+        },
+        {
+            "type": "title",
+            "source": "Notion Style Gallary Cover",
+            "target": "Notion Style Gallary Cover"
+        },
+        {
+            "type": "description",
+            "source": "remove Gallary dynamic data view's cover padding",
+            "target": "remove Gallary dynamic data view's cover padding"
+        },
+        {
+            "type": "title",
+            "source": "Count Component",
+            "target": "Count Component"
+        },
+        {
+            "type": "title",
+            "source": "Value Font Size",
+            "target": "Value Font Size"
+        },
+        {
+            "type": "title",
+            "source": "Quote Component",
+            "target": "Quote Component"
+        },
+        {
+            "type": "title",
+            "source": "Title Font Size",
+            "target": "Title Font Size"
+        },
+        {
+            "type": "description",
+            "source": "rem",
+            "target": "rem"
+        },
+        {
+            "type": "title",
+            "source": "Content Font Size",
+            "target": "Content Font Size"
+        },
+        {
+            "type": "title",
+            "source": "Card Component",
+            "target": "Card Component"
+        },
+        {
+            "type": "title",
+            "source": "Title Icon Size",
+            "target": "Title Icon Size"
+        }
+    ]
+}

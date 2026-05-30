@@ -1,0 +1,152 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "lazy-plugins",
+        "version": "1.0.0",
+        "title": "[zh-cn] Lazy Plugin Loader",
+        "description": "Lazy Plugin Loader Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.21",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Nothing configured",
+                    "target": "未配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Set all plugins to be:",
+                    "target": "将所有插件设置为："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Filter by: ",
+                    "target": "筛选条件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Separate desktop/mobile configuration",
+                    "target": "打开桌面/移动端独立配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Lazy Loader settings",
+                    "target": "Lazy Loader 设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default startup type for new plugins",
+                    "target": "新插件的默认启动类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show plugin descriptions",
+                    "target": "显示插件描述"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Set the delay for all plugins at once",
+                    "target": "一次性设置所有插件的延迟类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Plugins",
+                    "target": "插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Type to filter list",
+                    "target": "输入以筛选插件列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Load plugins with a delay on startup, so that you can get your app startup down into the sub-second loading time.",
+                    "target": "在启动时延迟加载插件，可将应用程序的启动时间缩短到亚秒级。"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setName(\"Separate desktop/mobile configuration\")",
+                    "target": "setName(\"打开桌面/移动端独立配置\")"
+                },
+                {
+                    "source": "setDesc(`Enable this if you want to have different settings depending whether you're using a desktop or mobile device. All of the settings below can be configured differently on desktop and mobile. You're currently using the ${this.lazyPlugin.device} settings.`)",
+                    "target": "setDesc(`当前使用的是 ${this.lazyPlugin.device} 配置。如需要根据使用的桌面设备或移动设备，而使用不同的延迟配置清单，请启用此选项。`)"
+                },
+                {
+                    "source": "setName(\"Lazy Loader settings\")",
+                    "target": "setName(\"Lazy Loader 设置\")"
+                },
+                {
+                    "source": "setName(\"Default startup type for new plugins\")",
+                    "target": "setName(\"新插件的默认启动类型\")"
+                },
+                {
+                    "source": "setName(\"Show plugin descriptions\")",
+                    "target": "setName(\"显示插件描述\")"
+                },
+                {
+                    "source": "setName(\"Set the delay for all plugins at once\")",
+                    "target": "setName(\"一次性设置所有插件的延迟类型\")"
+                },
+                {
+                    "source": "setDesc(\"Filter by: \")",
+                    "target": "setDesc(\"筛选条件：\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Type to filter list\")",
+                    "target": "setPlaceholder(\"输入以筛选插件列表\")"
+                },
+                {
+                    "source": "log(`Starting ${pluginId} after a ${startupType} delay`)",
+                    "target": "log(`启动 ${pluginId}，延迟 ${startupType} 后`)"
+                },
+                {
+                    "source": "log(`Set ${plugin.id} back to instant start`)",
+                    "target": "log(`将 ${plugin.id} 设置为立即启动`)"
+                },
+                {
+                    "source": "name: \"Lazy Plugin Loader\"",
+                    "target": "name: \"Lazy Plugin Loader\""
+                },
+                {
+                    "source": "description: \"Load plugins with a delay on startup, so that you can get your app startup down into the sub-second loading time.\"",
+                    "target": "description: \"在启动时延迟加载插件，可将应用程序的启动时间缩短到亚秒级。\""
+                },
+                {
+                    "source": "textContent = \"\"",
+                    "target": "textContent = \"\""
+                },
+                {
+                    "source": "var LoadingMethods={disabled:\"⛔ Disable plugin\",instant:\"⚡ Instant\",short:\"⌚ Short delay\",long:\"💤 Long delay\"};",
+                    "target": "var LoadingMethods={disabled:\"⛔ 禁用插件\",instant:\"⚡ 即时\",short:\"⌚ 短延迟\",long:\"💤 长延迟\"};"
+                },
+                {
+                    "source": "Object.entries({shortDelaySeconds:\"Short delay (seconds)\",longDelaySeconds:\"Long delay (seconds)\"})",
+                    "target": "Object.entries({shortDelaySeconds:\"短延迟 (秒)\",longDelaySeconds:\"长延迟 (秒)\"})"
+                }
+            ]
+        }
+    }
+}

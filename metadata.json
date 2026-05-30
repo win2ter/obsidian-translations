@@ -141,5 +141,70 @@
         "hash": "29a01e3129a01e3129a01e3129a01e31",
         "created_at": "2026-05-30T06:45:45.385Z",
         "updated_at": "2026-05-30T06:45:45.385Z"
+    },
+    {
+        "id": "UBb3NXBHExFshnRbzZ51iRJ9o9AQCDrQ",
+        "plugin": "heading-level-indent",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "3.0.0",
+        "title": "[Winter][zh-cn] Heading Level Indent",
+        "description": "Heading Level Indent Localization & Tweaks",
+        "hash": "104d5ee8104d5ee8104d5ee8104d5ee8",
+        "created_at": "2026-05-30T11:28:50.541Z",
+        "updated_at": "2026-05-30T11:28:50.541Z"
+    },
+    {
+        "id": "oQewdo-rc83KNGWjE8yYtPu_3FmTJRzk",
+        "plugin": "share-my-plugin-list",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "0.3.3",
+        "title": "Share my plugin list",
+        "description": "Share my plugin list Localization & Tweaks",
+        "hash": "106f58da106f58da106f58da106f58da",
+        "created_at": "2026-05-30T11:28:50.541Z",
+        "updated_at": "2026-05-30T11:28:50.541Z"
+    },
+    {
+        "id": "8lo-VbV083c1z1uzOzYY-jxZqciB7F0c",
+        "plugin": "runjs",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "0.8.0",
+        "title": "RunJS",
+        "description": "RunJS Localization & Tweaks",
+        "hash": "213cf9bb213cf9bb213cf9bb213cf9bb",
+        "created_at": "2026-05-30T11:28:50.544Z",
+        "updated_at": "2026-05-30T11:28:50.544Z"
+    },
+    {
+        "id": "A-wTx_uDxMyFRnu_dAgPwPczJS2gpFaE",
+        "plugin": "obsidian-style-settings",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "1.0.9",
+        "title": "[Winter][zh-cn] Style Settings",
+        "description": "Style Settings Localization & Tweaks",
+        "hash": "03a224de03a224de03a224de03a224de",
+        "created_at": "2026-05-30T11:28:50.544Z",
+        "updated_at": "2026-05-30T11:28:50.544Z"
+    },
+    {
+        "id": "Af9ekb582Ok8JSRWW2m6XHW0qw0h5uEo",
+        "plugin": "obsidian-trash-explorer",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "1.2.4",
+        "title": "[Winter][zh-cn] Trash Explorer",
+        "description": "Trash Explorer Localization & Tweaks",
+        "hash": "10d8ceb810d8ceb810d8ceb810d8ceb8",
+        "created_at": "2026-05-30T11:28:50.545Z",
+        "updated_at": "2026-05-30T11:28:50.545Z"
     }
 ]

@@ -32,11 +32,11 @@
         "language": "zh-cn",
         "version": "1.0.0",
         "supported_versions": "1.5.10",
-        "title": "[zh-cn] Calendar",
+        "title": "Calendar",
         "description": "Calendar Localization & Tweaks",
-        "hash": "7fe173117fe173117fe173117fe17311",
+        "hash": "662d08a3662d08a3662d08a3662d08a3",
         "created_at": "2026-05-30T05:20:55.750Z",
-        "updated_at": "2026-05-30T05:20:55.750Z"
+        "updated_at": "2026-05-30T06:38:30.193Z"
     },
     {
         "id": "zAYcYTPkZ_fIDLJYOyW0ztKFMZHyV3Xj",
@@ -84,11 +84,11 @@
         "language": "zh-cn",
         "version": "1.0.0",
         "supported_versions": "1.0.21",
-        "title": "[zh-cn] Lazy Plugin Loader",
+        "title": "[Winter][zh-cn] Lazy Plugin Loader",
         "description": "Lazy Plugin Loader Localization & Tweaks",
-        "hash": "005c3cc7005c3cc7005c3cc7005c3cc7",
+        "hash": "5934c21f5934c21f5934c21f5934c21f",
         "created_at": "2026-05-30T05:20:55.749Z",
-        "updated_at": "2026-05-30T05:20:55.749Z"
+        "updated_at": "2026-05-30T06:38:30.193Z"
     },
     {
         "id": "4DyUsRSyptCS8OyqtnFX69oXsmwUUiz3",
@@ -97,11 +97,11 @@
         "language": "zh-cn",
         "version": "1.0.0",
         "supported_versions": "0.3.5",
-        "title": "[zh-cn] Tray",
+        "title": "[Winter][zh-cn] Tray",
         "description": "Tray Localization & Tweaks",
-        "hash": "10d8900510d8900510d8900510d89005",
+        "hash": "658b0db9658b0db9658b0db9658b0db9",
         "created_at": "2026-05-30T05:20:55.750Z",
-        "updated_at": "2026-05-30T05:20:55.750Z"
+        "updated_at": "2026-05-30T06:38:30.193Z"
     },
     {
         "id": "vZ87tqzlE0Wgxlf5Vj9WMbnFYaRzC79W",
@@ -115,5 +115,31 @@
         "hash": "74e350ce74e350ce74e350ce74e350ce",
         "created_at": "2026-05-30T05:20:55.752Z",
         "updated_at": "2026-05-30T05:20:55.752Z"
+    },
+    {
+        "id": "7shVKRmdhtVBbaqwrqP3kvbvapofcfc_",
+        "plugin": "obsidian-tasks-plugin",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "2.0.0",
+        "supported_versions": "7.14.0",
+        "title": "Tasks",
+        "description": "Track tasks across your vault. Supports due dates, recurring tasks, done dates, sub-set of checklist items, and filtering.",
+        "hash": "75f99e8575f99e8575f99e8575f99e85",
+        "created_at": "2026-05-30T06:38:30.194Z",
+        "updated_at": "2026-05-30T06:38:30.194Z"
+    },
+    {
+        "id": "-IX8fMN-_q0KDxQ7SV7iueTmQtvk-VfY",
+        "plugin": "homepage",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "4.4.2",
+        "title": "[zh-cn] Homepage",
+        "description": "Homepage Localization & Tweaks",
+        "hash": "58d6dd9158d6dd9158d6dd9158d6dd91",
+        "created_at": "2026-05-30T06:38:30.193Z",
+        "updated_at": "2026-05-30T06:38:30.193Z"
     }
 ]

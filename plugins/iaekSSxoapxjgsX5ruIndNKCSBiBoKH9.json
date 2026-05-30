@@ -3,11 +3,11 @@
     "metadata": {
         "plugin": "lazy-plugins",
         "version": "1.0.0",
-        "title": "[zh-cn] Lazy Plugin Loader",
+        "title": "[Winter][zh-cn] Lazy Plugin Loader",
         "description": "Lazy Plugin Loader Localization & Tweaks",
         "language": "zh-cn",
         "supportedVersions": "1.0.21",
-        "author": ""
+        "author": "Winter"
     },
     "dict": {
         "main.js": {

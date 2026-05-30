@@ -3,7 +3,7 @@
     "metadata": {
         "plugin": "calendar",
         "version": "1.0.0",
-        "title": "[zh-cn] Calendar",
+        "title": "Calendar",
         "description": "Calendar Localization & Tweaks",
         "language": "zh-cn",
         "supportedVersions": "1.5.10",

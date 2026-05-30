@@ -3,11 +3,11 @@
     "metadata": {
         "plugin": "tray",
         "version": "1.0.0",
-        "title": "[zh-cn] Tray",
+        "title": "[Winter][zh-cn] Tray",
         "description": "Tray Localization & Tweaks",
         "language": "zh-cn",
         "supportedVersions": "0.3.5",
-        "author": ""
+        "author": "Winter"
     },
     "dict": {
         "main.js": {

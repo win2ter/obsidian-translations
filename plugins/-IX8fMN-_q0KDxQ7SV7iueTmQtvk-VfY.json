@@ -1,0 +1,442 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "homepage",
+        "version": "1.0.0",
+        "title": "[zh-cn] Homepage",
+        "description": "Homepage Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "4.4.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addHeading",
+                    "source": "Commands",
+                    "target": "命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addHeading",
+                    "source": "Vault environment",
+                    "target": "Vault 环境"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addHeading",
+                    "source": "Opened view",
+                    "target": "打开视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addToggle",
+                    "source": "Open on startup",
+                    "target": "开机启动"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addToggle",
+                    "source": "When launching Obsidian, open the homepage.",
+                    "target": "启动 Obsidian 时，打开主页 homepage。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addToggle",
+                    "source": "Open when empty",
+                    "target": "空页時启动"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addToggle",
+                    "source": "When there are no tabs open, open the homepage.",
+                    "target": "如果没有打开任何标签页，请打开主页 homepage。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addToggle",
+                    "source": "Use when opening normally",
+                    "target": "正常打开使用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addToggle",
+                    "source": "Use homepage settings when opening it normally, such as from a link or the file browser.",
+                    "target": "正常打开时（例如通过链接或文件浏览器打开），请使用主页设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addToggle",
+                    "source": "Pin",
+                    "target": "钉选首页"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addToggle",
+                    "source": "Pin the homepage when opening.",
+                    "target": "打开时固定首页。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addToggle",
+                    "source": "pin",
+                    "target": "钉选"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addToggle",
+                    "source": "Hide release notes",
+                    "target": "隐藏发行说明"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addToggle",
+                    "source": "Never display release notes when Obsidian updates.",
+                    "target": "Obsidian 更新时切勿显示发行说明。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addToggle",
+                    "source": "When the homepage doesn't exist, create a note with its name.",
+                    "target": "如果主页不存在，请创建一条以主页名称命名的笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addToggle",
+                    "source": "Revert view on close",
+                    "target": "关闭时恢复视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addToggle",
+                    "source": "When navigating away from the homepage, restore the default view.",
+                    "target": "当用户离开首页时，恢复默认视图。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addToggle",
+                    "source": "When opening the homepage, scroll to the bottom and focus on the last line.",
+                    "target": "打开首页后，滚动到页面底部，并将注意力集中在最后一行。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addToggle",
+                    "source": "Refresh Dataview",
+                    "target": "刷新数据视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addToggle",
+                    "source": "Always attempt to reload Dataview views when opening the homepage.",
+                    "target": "打开首页时，务必尝试重新加载数据视图。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "option",
+                    "target": "选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "article",
+                    "target": "文章"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Copy debug info",
+                    "target": "复制调试信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "For mobile devices, store the homepage and its settings separately.",
+                    "target": "对于移动设备，请将主页及其设置分别存储。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Separate mobile homepage",
+                    "target": "移动端独立主页"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to read the daily note template",
+                    "target": "未能找到每日笔记模板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied homepage debug information to clipboard",
+                    "target": "已将首页调试信息复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Homepage cannot be opened due to plugin unavailablity.",
+                    "target": "由于插件不可用，无法打开首页。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy debug info",
+                    "target": "复制调试信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open homepage",
+                    "target": "打开首页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set to active file",
+                    "target": "设置为活动文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The plugin required for this homepage type isn't available.",
+                    "target": "此首页类型所需的插件不可用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This setting has been disabled, as it isn't compatible with Daily Notes' \"Open daily note on startup\" functionality. To use it, disable the Daily Notes setting.",
+                    "target": "此设置已被禁用，因为它与 Daily Notes 的“启动时打开每日笔记”功能不兼容。要使用此功能，请禁用 Daily Notes 设置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Select commands that will be executed when opening the homepage.",
+                    "target": "选择打开主页时要执行的命令。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "If this vault is synced using unofficial services, this may lead to content being overwritten.",
+                    "target": "如果使用非官方服务同步此存储库，则可能会导致内容被覆盖。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Requires Dataview auto-refresh to be enabled.",
+                    "target": "需要启用数据视图自动刷新。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addDropdown",
+                    "source": "Opening method",
+                    "target": "打开主页"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addDropdown",
+                    "source": "Determine how extant tabs and views are affected on startup.",
+                    "target": "确定现有标签页和视图在启动时会受到怎样的影响。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addDropdown",
+                    "source": "Manual opening method",
+                    "target": "手动打开主页方法"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addDropdown",
+                    "source": "Determine how extant tabs and views are affected when opening with commands or the ribbon button.",
+                    "target": "确定使用命令或功能区按钮打开时，现有选项卡和视图会受到怎样的影响。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addDropdown",
+                    "source": "Homepage view",
+                    "target": "Homepage视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addDropdown",
+                    "source": "Choose what view to open the homepage in.",
+                    "target": "选择打开首页时使用的视图。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addDropdown",
+                    "source": "view",
+                    "target": "视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom daily note settings found!",
+                    "target": "未找到自定义每日笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom weekly note settings found!",
+                    "target": "未找到自定义每周笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom monthly note settings found!",
+                    "target": "未找到自定义月度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom quarterly note settings found!",
+                    "target": "未找到自定义季度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom yearly note settings found!",
+                    "target": "未找到自定义年度笔记设置！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to create new file.",
+                    "target": "无法创建新文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Really?",
+                    "target": "确认?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "New tab",
+                    "target": "新标签页"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Homepage",
+                    "target": "首页來源設置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "nv-command-desc setting-item-description",
+                    "target": "nv-command-desc setting-item-description"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "Notice(\"Failed to read the daily note template\")",
+                    "target": "Notice(\"Failed to read the daily note template\")"
+                },
+                {
+                    "source": "Notice(\"无法创建新文件。\")",
+                    "target": "Notice(\"无法创建新文件。\")"
+                },
+                {
+                    "source": "setName(\"Separate mobile homepage\")",
+                    "target": "setName(\"Separate mobile homepage\")"
+                },
+                {
+                    "source": "setDesc(\"For mobile devices, store the homepage and its settings separately.\")",
+                    "target": "setDesc(\"For mobile devices, store the homepage and its settings separately.\")"
+                },
+                {
+                    "source": "addHeading(\"Vault environment\",\"vaultHeading\")",
+                    "target": "addHeading(\"Vault environment\",\"vaultHeading\")"
+                },
+                {
+                    "source": "addHeading(\"Opened view\",\"paneHeading\")",
+                    "target": "addHeading(\"Opened view\",\"paneHeading\")"
+                },
+                {
+                    "source": "setButtonText(\"Copy debug info\")",
+                    "target": "setButtonText(\"Copy debug info\")"
+                },
+                {
+                    "source": "Notice(\"Copied homepage debug information to clipboard\")",
+                    "target": "Notice(\"Copied homepage debug information to clipboard\")"
+                },
+                {
+                    "source": "Notice(`Cannot find the journal \"${this.data.value}\" to use as the homepage.`)",
+                    "target": "Notice(`Cannot find the journal \"${this.data.value}\" to use as the homepage.`)"
+                },
+                {
+                    "source": "Notice(\"Homepage cannot be opened due to plugin unavailablity.\")",
+                    "target": "Notice(\"Homepage cannot be opened due to plugin unavailablity.\")"
+                },
+                {
+                    "source": "Notice(`Cannot find the workspace \"${this.data.value}\" to use as the homepage.`)",
+                    "target": "Notice(`Cannot find the workspace \"${this.data.value}\" to use as the homepage.`)"
+                },
+                {
+                    "source": "Notice(`Homepage \"${this.computedValue}\" does not exist.`)",
+                    "target": "Notice(`Homepage \"${this.computedValue}\" does not exist.`)"
+                },
+                {
+                    "source": "Notice(`The homepage has been changed to \"${this.data.value}\".`)",
+                    "target": "Notice(`The homepage has been changed to \"${this.data.value}\".`)"
+                },
+                {
+                    "source": "name:\"Copy debug info\"",
+                    "target": "name:\"Copy debug info\""
+                },
+                {
+                    "source": "text:\"The plugin required for this homepage type isn't available.\"",
+                    "target": "text:\"The plugin required for this homepage type isn't available.\""
+                },
+                {
+                    "source": "text:`This setting has been disabled, as it isn't compatible with Daily Notes' \"Open daily note on startup\" functionality. To use it, disable the Daily Notes setting.`",
+                    "target": "text:`This setting has been disabled, as it isn't compatible with Daily Notes' \"Open daily note on startup\" functionality. To use it, disable the Daily Notes setting.`"
+                },
+                {
+                    "source": "text:\"Select commands that will be executed when opening the homepage.\"",
+                    "target": "text:\"Select commands that will be executed when opening the homepage.\""
+                },
+                {
+                    "source": "text:\"If this vault is synced using unofficial services, this may lead to content being overwritten.\"",
+                    "target": "text:\"If this vault is synced using unofficial services, this may lead to content being overwritten.\""
+                },
+                {
+                    "source": "text:\"Requires Dataview auto-refresh to be enabled.\"",
+                    "target": "text:\"Requires Dataview auto-refresh to be enabled.\""
+                },
+                {
+                    "source": "name:\"Open homepage\"",
+                    "target": "name:\"Open homepage\""
+                },
+                {
+                    "source": "name:\"Set to active file\"",
+                    "target": "name:\"Set to active file\""
+                },
+                {
+                    "source": "(n.ReplaceAll=\"Replace all open notes\",n.ReplaceLast=\"Replace last note\",n.Retain=\"Keep open notes\",n)",
+                    "target": "(n.ReplaceAll=\"替换所有打开的笔记\",n.ReplaceLast=\"替换最后一个笔记\",n.Retain=\"保持打开的笔记\",n)"
+                },
+                {
+                    "source": "\"Auto-scroll\"",
+                    "target": "\"自动滚动至頁尾\""
+                },
+                {
+                    "source": "i.Default=\"Default view\",i.Reading=\"Reading view\",i.Source=\"Editing view (Source)\",i.LivePreview=\"Editing view (Live Preview)\",i",
+                    "target": "i.Default=\"默认视图\",i.Reading=\"阅读视图\",i.Source=\"编辑视图 (源代码)\",i.LivePreview=\"编辑视图(实时预览)\",i"
+                },
+                {
+                    "source": "\"Auto-create\"",
+                    "target": "\"自动创建主页\""
+                },
+                {
+                    "source": "`<b>Mobile settings are stored separately.</b> Therefore, changes to other settings will not affect \n\t\t\t${r} devices. To edit ${r} settings, use a ${r} device.`",
+                    "target": "`<b>移动设备配置独立存储。</b>因此，修改设置並不会影响\n\t\t\t${r}设备。请使用 ${r} 设备编辑 ${r} 的设置。`"
+                }
+            ]
+        }
+    }
+}

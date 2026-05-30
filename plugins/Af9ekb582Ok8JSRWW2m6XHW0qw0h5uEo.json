@@ -1,0 +1,178 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-trash-explorer",
+        "version": "1.0.0",
+        "title": "[Winter][zh-cn] Trash Explorer",
+        "description": "Trash Explorer Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.4",
+        "author": "Winter"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Cancel",
+                    "target": "取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] lifecycle_double_unmount\n%cTried to unmount a component that was not mounted\nhttps://svelte.dev/e/lifecycle_double_unmount",
+                    "target": "%c[svelte] lifecycle_double_unmount\n%cTried to unmount a component that was not mounted\nhttps://svelte.dev/e/lifecycle_double_unmount"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] state_proxy_unmount\n%cTried to unmount a state proxy, rather than a component\nhttps://svelte.dev/e/state_proxy_unmount",
+                    "target": "%c[svelte] state_proxy_unmount\n%cTried to unmount a state proxy, rather than a component\nhttps://svelte.dev/e/state_proxy_unmount"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] svelte_boundary_reset_noop\n%cA \\`<svelte:boundary>\\` \\`reset\\` function only resets the boundary the first time it is called\nhttps://svelte.dev/e/svelte_boundary_reset_noop",
+                    "target": "%c[svelte] svelte_boundary_reset_noop\n%cA \\`<svelte:boundary>\\` \\`reset\\` function only resets the boundary the first time it is called\nhttps://svelte.dev/e/svelte_boundary_reset_noop"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to hydrate: ",
+                    "target": "Failed to hydrate: "
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Emptied the trash",
+                    "target": "已清空垃圾桶"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "KB",
+                    "target": "KB"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MB",
+                    "target": "MB"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "GB",
+                    "target": "GB"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show trash explorer",
+                    "target": "显示垃圾桶"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Empty trash",
+                    "target": "清空垃圾"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Filter by name...",
+                    "target": "按名称筛选..."
+                },
+                {
+                    "type": "VariableDeclarator",
+                    "name": "title",
+                    "source": "Empty trash",
+                    "target": "清空垃圾"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"created at\")",
+                    "target": "error(\"created at\")"
+                },
+                {
+                    "source": "error(\"updated at\")",
+                    "target": "error(\"updated at\")"
+                },
+                {
+                    "source": "error(\"traced at\")",
+                    "target": "error(\"traced at\")"
+                },
+                {
+                    "source": "Notice(`Restored \"${item.basename}\" from trash`)",
+                    "target": "Notice(`Restored \"${item.basename}\" from trash`)"
+                },
+                {
+                    "source": "Notice(`Permanently deleted \"${item.basename}\"`)",
+                    "target": "Notice(`Permanently deleted \"${item.basename}\"`)"
+                },
+                {
+                    "source": "Notice(`Emptied the trash`)",
+                    "target": "Notice(`Emptied the trash`)"
+                },
+                {
+                    "source": "name = \"Svelte error\"",
+                    "target": "name = \"Svelte error\""
+                },
+                {
+                    "source": "textContent = \"\"",
+                    "target": "textContent = \"\""
+                },
+                {
+                    "source": "name: \"B\"",
+                    "target": "name: \"B\""
+                },
+                {
+                    "source": "name: \"KB\"",
+                    "target": "name: \"KB\""
+                },
+                {
+                    "source": "name: \"MB\"",
+                    "target": "name: \"MB\""
+                },
+                {
+                    "source": "name: \"GB\"",
+                    "target": "name: \"GB\""
+                },
+                {
+                    "source": "name: \"Show trash explorer\"",
+                    "target": "name: \"Show trash explorer\""
+                },
+                {
+                    "source": "name: \"Empty trash\"",
+                    "target": "name: \"Empty trash\""
+                },
+                {
+                    "source": "Are you sure you want to permanently delete \"${item.basename}\"?",
+                    "target": "是否永久删除 \"${item.basename}\"?"
+                },
+                {
+                    "source": "Are you sure you want to empty the trash? All files in the \"${TRASH_ROOT}\" folder will be permanently deleted!",
+                    "target": "是否清空垃圾桶吗？ “${TRASH_ROOT}”文件夹中的所有文件将被永久删除！"
+                },
+                {
+                    "source": "The reaction that called `getAbortSignal()` was re-run or destroyed",
+                    "target": "调用 `getAbortSignal()` 的反应被重新运行或损毁了。"
+                },
+                {
+                    "source": "Unable to restore \"${item.basename}\": the path already exists",
+                    "target": "无法恢复“${item.basename}”：路径已存在"
+                },
+                {
+                    "source": "Restored \"${item.basename}\" from trash",
+                    "target": "已从垃圾桶恢复 \"${item.basename}\" "
+                },
+                {
+                    "source": "Permanently deleted \"${item.basename}",
+                    "target": "已永久刪除 \"${item.basename}"
+                }
+            ]
+        }
+    }
+}
